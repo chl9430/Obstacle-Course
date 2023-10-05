@@ -20,7 +20,7 @@ public class Dropper : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(Time.time > timeToWait)
+        if (Time.time > timeToWait)
         {
             renderer.enabled = true;
             rigidbody.useGravity = true;
